@@ -1,0 +1,20 @@
+/* EmailComposer.css */
+
+.text-editor-container {
+  margin: 3rem;
+  border: 1px solid whitesmoke;
+  box-shadow: 10px 10px 5px lightblue;
+  margin-left: 18rem;
+  margin-top: -35rem;
+}
+.heading-emails{
+  background: yellow;
+  padding: 1rem;
+  margin: -1.2rem -0.2rem  1rem ;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+ 
+
+}

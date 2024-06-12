@@ -1,0 +1,62 @@
+
+.input_span {
+  display: flex;
+ justify-content: space-evenly;
+ border-bottom: 1px solid black;
+ margin-left: 0.5rem;
+ margin-right: 0.5rem;
+ padding: 1rem;
+}
+
+.input_span_body{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+.input_start {
+  margin-left: 0.5rem;
+  text-align: start;
+}
+
+.input_text {
+  flex: 8;
+  margin-left: 0.5rem;
+  border: none; /* Remove the border for the normal state */
+  outline: none; 
+  
+}
+.textarea{
+  height: 5rem;
+  margin-left: 0%;
+}
+.input_text:focus {
+  border: none; /* Remove the border when the input is in focus (selected) */
+}
+
+.input_end {
+ margin-right: 0.5rem;
+  text-align: end;
+}
+.email-compose{
+ 
+  margin-right: 2rem;
+}
+
+.send-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

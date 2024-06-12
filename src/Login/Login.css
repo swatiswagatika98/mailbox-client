@@ -1,0 +1,82 @@
+.login__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 24rem;
+    margin: auto;
+    margin-top: -35rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  
+  .login__card h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .input__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input__form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input__form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  .btn-signup {
+    padding: 10px 20px;
+    background-color: #5312ca;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-signup:hover {
+    background-color: #4102a8;
+  }
+  
+  .btn-signup:active {
+    background-color: #2e016c;
+  }
+  
+  .forgotBtn {
+    color: #5312ca;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn_signup {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #17a2b8;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn_signup:hover {
+    background-color: #138496;
+  }
+  
+  .btn_signup:active {
+    background-color: #0c6b7c;
+  }

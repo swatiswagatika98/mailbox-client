@@ -1,0 +1,43 @@
+.main_container {
+    background: yellow;
+    max-width: 20%;
+    height: 100vh; /* Set height to 100% of viewport height */
+    
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.compose-btn{
+    margin: 2rem 0.5rem;
+    padding: 1rem;
+    max-width: 9rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    color: black;
+   font-weight: bold;
+   cursor: 'pointer'
+}
+.compose-btn:hover{
+    background: #a2a674;
+    color: blue;
+    font-weight: bold;
+}
+.mail-inbox{
+    font-weight: bold;
+    padding:1rem;
+    background: #ced660;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: 'pointer'
+
+}
+.inbox{
+    margin-left: 1rem;
+}
+.mail-inbox:hover{
+    background: #a2a674;
+    color: white;
+}

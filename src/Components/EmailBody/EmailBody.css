@@ -1,0 +1,32 @@
+.send_mail_container {
+    display: flex;
+    justify-content: flex-start;
+    background: #c6d6d6;
+    border-radius: 5px;
+    transition: transform 0.2s; /* Add transition for zoom effect */
+}
+
+.send_mail_container:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.send_mail_main_div {
+    margin-top: -39rem;
+    margin-left: 18rem;
+}
+
+.email_body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.send_mail_container span {
+    margin-right: 7rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.div_snap{
+    display: flex;
+    justify-content: flex-start;
+}
